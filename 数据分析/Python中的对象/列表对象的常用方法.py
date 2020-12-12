@@ -10,6 +10,7 @@ def listAppend():
 
 def listCount():
     list1 = [1,2,2,2]
+    list1 = [1,2,2,2]
     print(list1.count(2))
 
 # listCount()
