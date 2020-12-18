@@ -24,6 +24,5 @@ plt.title('GDP-排名')
 plt.xticks(range(4),['上海','北京','广州','深圳'])
 plt.ylim([0, 15])
 for x,y in enumerate(GDP):
-    print(x,y)
     plt.text(x,y+100,'%s'%round(y,1),ha='center')
 plt.show()
