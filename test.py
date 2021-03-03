@@ -45,6 +45,4 @@
 lst = [1, 2, 3, 4, 5, 6]
 it = iter(lst)
 print(it, it.__next__())
-print(next(it))
-print(next(it))
-print(next(it))
+
