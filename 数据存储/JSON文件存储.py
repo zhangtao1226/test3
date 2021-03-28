@@ -50,7 +50,7 @@ def write_json():
         file.write(json.dumps(str))
 
 def write_json2():
-    with open('data2.json', 'w') as  file:
+    with open('data2.json', 'w') as file:
         file.write(json.dumps(str, indent=2))
 
 

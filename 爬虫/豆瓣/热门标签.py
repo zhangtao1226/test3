@@ -36,6 +36,7 @@ class HotLabel:
             tag_type_list.append(s.attrs['name'])
         return tag_type_list
 
+
 if __name__ == '__main__':
     url = 'https://book.douban.com/tag/?view=type&icn=index-sorttags-hot'
     headers = {
@@ -43,10 +44,10 @@ if __name__ == '__main__':
     }
     hotLable = HotLabel(url, headers)
     html = hotLable.get_html()
-    # print(html)
+    print(html)
     # tag_list = hotLable.get_element(html)
 
     # print(tag_list)
-    tag_type_name_list = hotLable.get_tag_type(html)
-    print(tag_type_name_list)
+    # tag_type_name_list = hotLable.get_tag_type(html)
+    # print(tag_type_name_list)
 
