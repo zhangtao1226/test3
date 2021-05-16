@@ -1,0 +1,18 @@
+简介：
+
+    XPath，全称 XML Path Language，即 XML 路径语言，它是一门在 XML 文档中查找信息的语言。
+官网：https://www.w3.org/TR/xpath/all/
+w3school：https://www.w3school.com.cn/xpath/index.asp
+菜鸟教程：https://www.runoob.com/xpath/xpath-tutorial.html
+
+
+常用路径表达式：
+表达式                     描述
+nodename                  选取此节点的所有子节点
+/                         从根节点选取
+//                        从匹配选择的当前节点选择文档中的节点，而就不考虑它们的位置
+.                         选取当前节点
+..                        选取当前接地那的父节点
+@                         选取属性
+
+注：在使用 Xpath 之前，需要先确保安装好 lxml 库。
